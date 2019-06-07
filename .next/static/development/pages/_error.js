@@ -2164,20 +2164,10 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_layouts_main__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 8
         },
         __self: this
       }, 'Erro ao encontrar page!!!');
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var res = _ref.res,
-          err = _ref.err;
-      var statusCode = res ? res.statusCode : err ? err.statusCode : null;
-      return {
-        statusCode: statusCode
-      };
     }
   }]);
 
@@ -2262,7 +2252,7 @@ var _jsxFileName = "/home/gabriela/React Native/hello-world/pages/layouts/main.j
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2Fhome%2Fgabriela%2FReact%20Native%2Fhello-world%2Fpages%2F_error.js ***!
   \********************************************************************************************************************************************/
@@ -2285,5 +2275,5 @@ module.exports = dll_5ecb097ae0f7e950efbc;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

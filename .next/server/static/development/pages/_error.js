@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -413,20 +413,10 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_layouts_main__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 8
         },
         __self: this
       }, 'Erro ao encontrar page!!!');
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var res = _ref.res,
-          err = _ref.err;
-      var statusCode = res ? res.statusCode : err ? err.statusCode : null;
-      return {
-        statusCode: statusCode
-      };
     }
   }]);
 
@@ -511,7 +501,7 @@ var _jsxFileName = "/home/gabriela/React Native/hello-world/pages/layouts/main.j
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/

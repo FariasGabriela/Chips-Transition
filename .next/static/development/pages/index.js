@@ -10673,42 +10673,49 @@ function (_React$Component) {
           __self: this
         });
       }
+      /*return   <Page>
+      <p>my page with global styles!</p>
+      <Link href="/about">
+          <a>here</a>
+      </Link>
+       <button onClick={ ()=> Router.push('/about') }>
+        Click
+      </button>
+      </Page>*/
 
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_layouts_main__WEBPACK_IMPORTED_MODULE_8__["default"], {
+
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 30
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("nav", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 31
         },
         __self: this
-      }, "my page with global styles!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        href: "/about",
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 32
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 33
         },
         __self: this
-      }, "here")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
-        onClick: function onClick() {
-          return next_router__WEBPACK_IMPORTED_MODULE_10___default.a.push('/about');
-        },
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        href: "/about/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 34
         },
         __self: this
-      }, "Click"));
+      }, "About")))));
     }
   }], [{
     key: "getInitialProps",
@@ -10783,7 +10790,7 @@ var _jsxFileName = "/home/gabriela/React Native/hello-world/pages/layouts/main.j
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fgabriela%2FReact%20Native%2Fhello-world%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -10806,5 +10813,5 @@ module.exports = dll_5ecb097ae0f7e950efbc;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

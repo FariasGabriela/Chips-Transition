@@ -5,7 +5,7 @@ import Error from 'next/error';
 
 class Index extends React.Component {
   static async getInitialProps({res}) {
-    const errorCode = res.statusCode > 200 ? res.statusCode : false;
+     const errorCode = res.statusCode > 200 ? res.statusCode : false;
 
     return { errorCode, stars: 'teste' };
   }
@@ -15,7 +15,7 @@ class Index extends React.Component {
       return <Error statusCode={this.props.errorCode} />;
     }
 
-    return   <Page>
+    /*return   <Page>
     <p>my page with global styles!</p>
     <Link href="/about">
         <a>here</a>
@@ -24,7 +24,19 @@ class Index extends React.Component {
     <button onClick={ ()=> Router.push('/about') }>
       Click
     </button>
-  </Page>
+  </Page>*/
+
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/about/">About</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    )
   }
 }
 

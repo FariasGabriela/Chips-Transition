@@ -9,15 +9,15 @@ class About extends Component {
                     <p>TESTE NA TAG P</p>
                     <style jsx>{`
                         p {
-                        color: red;
+                            color: red;
                         }
-                        div {
-                        background: pink;
-                        }
-                        @media (max-width: 600px) {
                         div {
                             background: pink;
                         }
+                        @media (max-width: 600px) {
+                            div {
+                                background: pink;
+                            }
                         }
                     `}</style>
                 </div>
